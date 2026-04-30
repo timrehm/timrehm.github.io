@@ -41,3 +41,13 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.wrap-left {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.wrap-right {
+  float: right;
+  margin: 0 0 10px 15px;
+}
