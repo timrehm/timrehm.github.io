@@ -51,3 +51,8 @@ ul.posts li {
   float: right;
   margin: 0 0 10px 15px;
 }
+
+.full-width {
+  width: 100%;
+  height: auto; /* keeps aspect ratio */
+}
