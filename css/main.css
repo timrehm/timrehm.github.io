@@ -56,32 +56,3 @@ ul.posts li {
   width: 100%;
   height: auto; /* keeps aspect ratio */
 }
-
-.blurb {
-    max-width: 700px;
-    margin: 100px auto;   /* center vertically with spacing */
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ddd;  /* subtle box */
-    border-radius: 8px;
-}
-
-.blurb h1 {
-    margin-bottom: 10px;
-}
-
-.tagline {
-    margin-bottom: 25px;
-    font-size: 1.1em;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid black;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #f5f5f5;  /* subtle hover effect */
-}
