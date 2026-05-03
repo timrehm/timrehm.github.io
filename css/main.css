@@ -78,4 +78,5 @@ ul.posts li {
 .image img {
   max-width: none;
   height: auto;
+  border-radius: 12px
 }
