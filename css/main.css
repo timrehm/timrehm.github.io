@@ -74,6 +74,6 @@ ul.posts li {
 }
 
 .image img {
-  width: 100%;
+  max-width: none; /* THIS is the key fix */
   height: auto;
 }
