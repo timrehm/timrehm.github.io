@@ -59,10 +59,12 @@ ul.posts li {
 
 .content {
   display: flex;
+  justify-content: flex-start;  /* key fix */
   align-items: flex-start;
   gap: 40px;
-  max-width: 900px;
-  margin: 80px auto;
+
+  max-width: 1100px;
+  margin: 80px 0 80px 0;  /* removes auto-centering */
 }
 
 .text {
