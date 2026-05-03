@@ -56,3 +56,9 @@ ul.posts li {
   width: 100%;
   height: auto; /* keeps aspect ratio */
 }
+
+.content {
+  max-width: 700px;
+  margin: 80px auto;
+  line-height: 1.6;
+}
