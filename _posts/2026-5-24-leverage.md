@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's look at leverage"
+title: "Let's Look at Leverage"
 date: 2026-05-24
 ---
 
