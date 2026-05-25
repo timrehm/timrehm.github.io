@@ -15,4 +15,4 @@ So who's doing well in the clutch so far in 2026? (Today is May 24th, 2026.) Let
   <img src="/plots/2026HLwOBA.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-What does one take away from this? The weighted average of wOBA values in high-leverage situations (HLwOBA) 
+What does one take away from this? The weighted average of wOBA values in high-leverage situations (HLwOBA) is lower than the mean wOBA, but is within uncerainty (one standard deviation). Only around 10$\%$ of PA are in high leverage.
