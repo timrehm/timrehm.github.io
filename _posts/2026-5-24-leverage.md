@@ -19,7 +19,7 @@ What does one take away from this? The weighted average of wOBA values in high-l
 
 But over the course of the season, will these results hold? No. The sample size taken here is just too small to infer anything about the ability of any hitter. Aaron Judge will regress to his mean, just like Cole Young will. Perhaps the Yankees' 2-9 record against teams $>$.500 could be partially attributed to Judge's slow start in the clutch. Regardless, they are 31-22, and there isn't much we can infer from this dataset, but is fun to look at nonetheless.
 
-What about over the course of a full season? Here are how the 2025 batters with $>$400 PA performed in HL and LL situations:
+What about over the course of a full season? Here are how the 2025 batters with $>$400 PA performed in HLwOBA and LLwOBA:
 
 <p align="center">
   <img src="/plots/2025HLwOBA.svg" style="max-width: 100%; width: 100%;">
