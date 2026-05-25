@@ -23,16 +23,18 @@ $$
 \Large \left\langle\mathrm{wOBA}\right\rangle = \frac{1}{N_{\mathrm{PA}}}\sum_{i}w_{i}n_{i} \ \ \ \ \left\langle\mathrm{wOBA}^{2}\right\rangle = \frac{1}{N_{\mathrm{PA}}}\sum_{i}w_{i}^{2}n_{i}
 $$
 
-$n_{i}$ is the number of 1B, 2B, 3B, HR, uBB, and HBP for a batter is $N_{\mathrm{PA}}$ is the number of PA, including sacrifice flies and not including reaching on errors, IBBs, sacrifice bunts, and other truncated PA. The equation for $\sigma_{\mathrm{wOBA}}$ is given as:
+$n_{i}$ is the number of 1B, 2B, 3B, HR, uBB, and HBP for a batter is $N_{\mathrm{PA}}$ is the number of PA, including sacrifice flies but not including reaching on errors, IBBs, sacrifice bunts, and other truncated PA. The equation for $\sigma_{\mathrm{wOBA}}$ is given as:
 
 $$
 \Large \sigma_{\mathrm{wOBA}} = \sqrt{\frac{\left\langle\mathrm{wOBA}^{2}\right\rangle-\left\langle\mathrm{wOBA}\right\rangle^{2}}{N_{\mathrm{PA}}}}
 $$
 
-What about over the course of a full season? Here is how the 2025 batters with $>$400 PA performed in HLwOBA and LLwOBA:
+What about over the course of a full season? Here is how the 2025 batters with $>\,$400 PA performed in HLwOBA and LLwOBA:
 
 <p align="center">
   <img src="/plots/2025HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the Gritty Tigs?... and Aaron Judge is still "worse" in the clutch, despite his HLwOBA being almost one standard deviation above average. Still, the sample size is still quite too small. 
+Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the Gritty Tigs?... and Aaron Judge is still "worse" than himself in the clutch, but his HLwOBA is almost one standard deviation above average. Still, the sample size is still quite too small. The average HLwOBA is again lower than the overall average wOBA, which should be expected since the the majority of HL PA occur in the 8th and 9th innings, when opposing teams normally put in their best relievers. Likewise, we expect the average LLwOBA to be very close to the average wOBA since around 90% of PA are in low leverage. So let's try and expand the sample size and see if we can infer any clutch skill. Let's look at the HL and LL performance of each player that has had $>\,$400 PA in each of the last four seasons (2022-2025):
+
+
