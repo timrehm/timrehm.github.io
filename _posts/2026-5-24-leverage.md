@@ -116,7 +116,7 @@ This equation is self-referential, as the variance of each player's skill varian
 $$
 \Large 
 \begin{align*}
-\mathrm{clutch wOBA skill} &= \frac{\sfrac{-.021}{.011^{2}}+\sfrac{.058}{.036^{2}}}{\sfrac{1}{.011^{2}}+\sfrac{1}{.036^{2}}}\\
+\mathrm{clutch wOBA skill} &= \frac{-.021/.011^{2}+.058/.036^{2}{1/.011^{2}+1/.036^{2}}\\
 &= -.014
 \end{align*}
 $$
