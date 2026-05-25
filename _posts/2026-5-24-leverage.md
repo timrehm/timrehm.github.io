@@ -24,3 +24,5 @@ What about over the course of a full season? Here is how the 2025 batters with $
 <p align="center">
   <img src="/plots/2025HLwOBA.svg" style="max-width: 100%; width: 100%;">
 </p>
+
+Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the "Gritty Tigs"...
