@@ -70,4 +70,27 @@ $$
 \Large \Delta\mathrm{wOBA}\pm\sigma_{\Delta\mathrm{wOBA}} = \left(\mathrm{HLwOBA}-\mathrm{LLwOBA}\right)\pm\sqrt{\sigma_{\mathrm{HLwOBA}}^{2}+\sigma_{\mathrm{LLwOBA}}^{2}}
 $$
 
+Looking at the top and bottom 6 in $\Delta\mathrm{wOBA}$:
+
+$$
+\Large
+\begin{array}{|c|c|c|c|}
+\hline
+\mathrm{Top \ 6} & $\Delta$\mathrm{wOBA} & \mathrm{Bottom \ 6} & $\Delta$\mathrm{wOBA} \\
+\hline
+\mathrm{Carlos \ Santana}& .080\pm.038 & \mathrm{Taylor \ Ward} & -.097\pm.032\\
+\hline
+\mathrm{Jonah \ Heim}& .058\pm.036 & \mathrm{Austin \ Riley} & -.096\pm.036\\
+\hline
+\mathrm{Ryan \ McMahon}&.035\pm.037 & \mathrm{Matt \ Chapman} & -.087\pm.031\\
+\hline
+\mathrm{J.P. \ Crawford}&.033\pm.033  & \mathrm{Paul \ Goldschmidt} & -.083\pm.033\\
+\hline
+\mathrm{Matt \ Olson} &.033\pm.040 & \mathrm{Brandon \ Marsh} &-.082\pm.033\\
+\hline
+\mathrm{Adolis \ García} &.032\pm.035 & \mathrm{Bryce \ Harper} & -.074\pm.035\\
+\hline
+\end{array}
+$$
+
 
