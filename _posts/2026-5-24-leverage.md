@@ -76,7 +76,7 @@ $$
 \Large
 \begin{array}{|c|c|c|c|}
 \hline
-\mathrm{Top \ 6} & $\Delta$\mathrm{wOBA} & \mathrm{Bottom \ 6} & $\Delta$\mathrm{wOBA} \\
+\mathrm{Top \ 6} & \Delta\mathrm{wOBA} & \mathrm{Bottom \ 6} & \Delta\mathrm{wOBA} \\
 \hline
 \mathrm{Carlos \ Santana}& .080\pm.038 & \mathrm{Taylor \ Ward} & -.097\pm.032\\
 \hline
