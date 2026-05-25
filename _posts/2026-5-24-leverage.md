@@ -111,4 +111,12 @@ $$
 \Large \sigma_{\mathrm{skill}}^{2} = \frac{\sum_{P}\frac{\left(\Delta\mathrm{wOBA}_{P}-\overline{\Delta\mathrm{wOBA}}\right)^{2}-\tilde{N}\sigma_{\Delta\mathrm{wOBA}, \ P}^{2}}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}}{\sum_{P}\frac{1}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}} \pm \sqrt{\frac{2}{\sum_{P}\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{-2}}}
 $$
 
-This equation is self-referential, as the variance of each player's skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. Solving this for our 76 batters yields $\sigma_{\mathrm{skill}}^{2}$ = .0001195$\pm$.0002192. That means that our population has a clutch skill standard deviation $\sigma_{\mathrm{skill}}$ = .011 points in wOBA.
+This equation is self-referential, as the variance of each player's skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. Solving this for our 76 batters yields $\sigma_{\mathrm{skill}}^{2}$ = .0001195$\pm$.0002192. That means that our population has a clutch skill standard deviation $\sigma_{\mathrm{skill}}$ = .011 points in wOBA. From what we *measured*, we found the average $\Delta$wOBA = -.021$\pm$.034 from statistical uncertainty, but now we find the average $\Delta$wOBA *skill* equals -.021$\pm$.011. We can estimate each player's clutch skill with respect to the population of players by regressing each player's performance to the mean. We will take each player's $\Delta\mathrm{wOBA}$ and interpret it as his measured clutch skill, and then regress to the population mean of clutch skill. Take Jonah Heim, his *measured* clutch skill is .058\pm.036. We can regress his clutch skill to the mean, which weighs the measured clutch skill and population mean by the inverse of each measurement's variance. This looks like:
+
+$$
+\Large 
+\begin{align*}
+\mathrm{clutch wOBA skill} &= \frac{\frac{-.021}{.011^{2}}+\frac{.058}{.036^{2}}}{\frac{1}{.011^{2}}+\frac{1}{.036^{2}}}
+&= -.014
+\end{align*}
+$$
