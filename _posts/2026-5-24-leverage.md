@@ -44,10 +44,12 @@ Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the
 76 different players qualified. The average wOBA of this sample is larger than an entire league-averaged wOBA, likely due to the fact that if you are in this list and have 1600 PA across 4 seasons, you are likely a pretty good hitter. Here are the top and bottom 5 hitters in HLwOBA:
 
 $$
-\Large \[
+\Large
 \begin{array}{|c|c|c|c|}
 \hline
-\textrm{Player1 }& .033\pm.033  & \textrm{Player 2} & .033\pm.033 \\
+\mathrm{Top 5 HLwOBA} & \ & \mathrm{Bottom 5 HLwOBA} & \ \\
+\hline
+\mathrm{Player1 }& .033\pm.033  & \textrm{Player 2} & .033\pm.033 \\
 \hline
  &  &  &  \\
 \hline
@@ -60,5 +62,4 @@ $$
  &  &  &  \\
 \hline
 \end{array}
-\]
 $$
