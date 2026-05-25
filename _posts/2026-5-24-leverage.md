@@ -93,4 +93,4 @@ $$
 \end{array}
 $$
 
-
+Over the course of four seasons, Carlos Santana appears to have a knack for the clutch despite being almost 1-$\sigma$ below-average in low leverage situations. The average $\Delta\mathrm{wOBA} = $
