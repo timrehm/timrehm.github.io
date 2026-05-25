@@ -12,5 +12,5 @@ To compare the clutchness of hitters, we need to separate what situations are hi
 So who's doing well in the clutch so far in 2026? (Today is May 24th, 2026.) I am going to use [wOBA](https://library.fangraphs.com/offense/woba/) as the metric for hitting quality, and separate each player who has $\geq$150 PA into HL PA and LL PA. An HL PA has an LI $\geq$ 2.0, and likewise an LL PA has an LI $<$ 2.0.
 
 <p align="center">
-  <img src="plots/HLwOBA2026.svg" width="700">
+  <img src="/plots/HLwOBA2026.svg" width="700">
 </p>
