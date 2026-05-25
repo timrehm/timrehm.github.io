@@ -12,17 +12,17 @@ To compare the clutchness of hitters, we need to separate what situations are hi
 So who's doing well in the clutch so far in 2026? (Today is May 24th, 2026.) Let's look at the [wOBA](https://library.fangraphs.com/offense/woba/) for each player who has $\geq$150 PA. An HL PA has an LI $\geq$ 2.0, and likewise an LL PA has an LI $<$ 2.0:
 
 <p align="center">
-  <img src="/plots/2026HLwOBA.svg" style="max-width: 100%; width: 100%;">
+  <img src="/plots/2026HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
 The size of the data points correlate with the number of HL PA. The dahsed black line shows where HLwOBA = LLwOBA, so any batter below that line is worse (than himself) in the clutch than not in clutch, and vice versa. What does one take away from this? The weighted average of wOBA values in high-leverage situations (HLwOBA) is lower than the mean wOBA, but is within uncerainty (one standard deviation). Only around 10$\%$ of PA are in high leverage. Is Aaron Judge really becoming a .180 wOBA hitter in the clutch? Is Cole Young, with a weighted average wOBA in low-leverage situations (LLwOBA) of .271, one standard deviation below the mean, becoming a .558 wOBA hitter in the clutch? Strictly from what we've observed? I guess. Aaron Judge has only 10 PA in high-leverage situations and has gone 1/8 with 1 uBB and 1 IBB. Sure. Cole Young has gone 10/24 with 3 HBP and 1 weird PA that got truncated (so it had to be removed) because Randy Arozarena lost track of the count and got caught sleeping between first and second: <a href="https://www.mlb.com/video/seth-lugo-ball-to-cole-young-uulxy5?q=05%2F02%2F2026%20Bottom%205th%20inning%20Seattle&cp=MIXED&qt=FREETEXT&p=0" target="_blank">play found here</a>. That was a poorly timed TOOTBLAN by Arozarena here; bottom of the 5th, up by 1 run, 2 outs, bases loaded... 
 
-But over the course of the season, will these results hold? No. The sample size taken here is just too small to infer anything about the ability of any hitter. Aaron Judge will regress to his mean, just like Cole Young will. Perhaps the Yankees' 2-9 record against teams $>$.500 could be partially attributed to Judge's slow start in the clutch. Regardless, they are 31-22, and there isn't much we can infer from this dataset, but it's fun to look at nonetheless.
+But over the course of the season, will these results hold? No. The sample size taken here is just too small to infer anything about the ability of any hitter. Aaron Judge will regress to his mean, just like Cole Young will. Perhaps the Yankees' 2-9 record against teams $>$.500 could be partially attributed to Judge's slow start in the clutch. Regardless, they are 31-22, and there isn't much we can infer from this dataset. Look at the errorbars of the selected players, they are 
 
 What about over the course of a full season? Here is how the 2025 batters with $>$400 PA performed in HLwOBA and LLwOBA:
 
 <p align="center">
-  <img src="/plots/2025HLwOBA.svg" style="max-width: 100%; width: 100%;">
+  <img src="/plots/2025HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
 Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the Gritty Tigs?... and Aaron Judge is still "worse" in the clutch, despite his HLwOBA being almost one standard deviation above average. Still, the sample size is still quite too small. 
