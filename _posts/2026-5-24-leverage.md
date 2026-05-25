@@ -99,4 +99,4 @@ $$
 \Large \left(\Delta\mathrm{wOBA}_{P}-\overline{\Delta\mathrm{wOBA}}\right)^{2} = \tilde{N}_{P}\sigma_{\Delta\mathrm{wOBA}, P}^{2} + \sigma_{\mathrm{skill}, P}^{2}
 $$
 
-Since we want to exclude $P$'s contribution to $\overline{\Delta\mathrm{wOBA}}$ when considering his skill variance, we include the factor $\tilde{N}_{P} = 1-N_{\mathrm{eff}}/N_{\mathrm{tot}}$, where $1/N_{\mathrm{eff}} = 1/N_{\mathrm{HL \ PA}}+1/N_{\mathrm{LL \ PA}}$ and $N_{\mathrm{tot}}$ is sum of $N_{\mathrm{eff}}$ for all players. 
+Since we want to exclude $P$'s contribution to $\overline{\Delta\mathrm{wOBA}}$ when considering his skill variance, we include the factor $\tilde{N}_{P} = 1-N_{\mathrm{eff}}/N_{\mathrm{tot}}$, where $1/N_{\mathrm{eff}} = 1/N_{\mathrm{HL \ PA}}+1/N_{\mathrm{LL \ PA}}$ and $N_{\mathrm{tot}}$ is the sum of $N_{\mathrm{eff}}$ for all players. 
