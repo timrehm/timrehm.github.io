@@ -47,7 +47,7 @@ $$
 \Large
 \begin{array}{|c|c|c|c|}
 \hline
-\mathrm{Top \ 6 \ HLwOBA} & \ & \mathrm{Bottom \ 6 \ HLwOBA} & \ \\
+\mathrm{Top \ 6} & \mathrm{HLwOBA} & \mathrm{Bottom \ 6} & \mathrm{HLwOBA} \\
 \hline
 \mathrm{Aaron \ Judge}& .400\pm.045 & \mathrm{Taylor \ Ward} & .250\pm.030 \\
 \hline
