@@ -41,25 +41,25 @@ Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the
   <img src="/plots/2022-25HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-76 different players qualified. The average wOBA of this sample is larger than an entire league-averaged wOBA, likely due to the fact that if you are in this list and have 1600 PA across 4 seasons, you are likely a pretty good hitter. Here are the top and bottom 5 hitters in HLwOBA:
+76 different players qualified. The average wOBA of this sample is larger than an entire league-averaged wOBA, likely due to the fact that if you are in this list and have 1600 PA across 4 seasons, you are likely a pretty good hitter. Here are the top and bottom 6 hitters in HLwOBA:
 
 $$
 \Large
 \begin{array}{|c|c|c|c|}
 \hline
-\mathrm{Top 5 HLwOBA} & \ & \mathrm{Bottom 5 HLwOBA} & \ \\
+\mathrm{Top \ 6 \ HLwOBA} & \ & \mathrm{Bottom \ 6 \ HLwOBA} & \ \\
 \hline
-\mathrm{Player1 }& .033\pm.033  & \textrm{Player 2} & .033\pm.033 \\
+\mathrm{Aaron \ Judge}& .400\pm.045 & \mathrm{Taylor \ Ward} & .250\pm.030 \\
 \hline
- &  &  &  \\
+\mathrm{Shohei \ Ohtani}& .399\pm.042 & \mathrm{Brandon \ Marsh} & .253\pm.030\\
 \hline
- &  &  &  \\
+\mathrm{Matt \ Olson}&.395\pm.038 & \mathrm{Marcus \ Semien} & .254\pm.030 \\
 \hline
- &  &  &  \\
+\mathrm{Vladimir \ Guerrero \ Jr.}&.391\pm.033  & \mathrm{Dansby \ Swanson} & .254\pm.030\\
 \hline
- &  &  &  \\
+\mathrm{Corey \ Seager} &.387\pm.045 & \mathrm{Matt \ Chapman} &.255\pm.028 \\
 \hline
- &  &  &  \\
+\mathrm{Carlos \ Santana} &.381\pm.037 & \mathrm{Austin \ Riley} & .262\pm.034\\
 \hline
 \end{array}
 $$
