@@ -41,7 +41,7 @@ Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the
   <img src="/plots/2022-25HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-76 different players qualified. The average wOBA of this sample is larger than an entire league-averaged wOBA, likely due to the fact that if you are in this list and have 1600 PA across 4 seasons, you are likely a pretty good hitter. Here are the top and bottom 6 hitters in HLwOBA:
+76 different players qualified. The average wOBA of this sample is larger than an entire league-averaged wOBA, likely due to the fact that if you are in this list and have 1600 PA across 4 seasons, you are probabaly a pretty good hitter. Here are the top and bottom 6 hitters in HLwOBA:
 
 $$
 \Large
@@ -64,7 +64,7 @@ $$
 \end{array}
 $$
 
-This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attribute. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA ($\Delta\mathrm{wOBA}$), which could reveal the ability of a player to become better or worse than themself in the clutch. Calculating $\Delta\mathrm{wOBA}$ is simply:
+This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attribute. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA ($\Delta\mathrm{wOBA}$), which could reveal the ability of a player to become better or worse than themself in the clutch. A positive $\Delta\mathrm{wOBA}$ indicates better performance in the clutch, and vice versa when $\Delta\mathrm{wOBA}$ is negative. Calculating $\Delta\mathrm{wOBA}$ is simply:
 
 $$
 \Large \Delta\mathrm{wOBA}\pm\sigma_{\Delta\mathrm{wOBA}} = \left(\mathrm{HLwOBA}-\mathrm{LLwOBA}\right)\pm\sqrt{\sigma_{\mathrm{HLwOBA}}^{2}+\sigma_{\mathrm{LLwOBA}}^{2}}
@@ -93,4 +93,8 @@ $$
 \end{array}
 $$
 
-Over the course of four seasons, Carlos Santana appears to have a knack for the clutch despite being almost 1-$\sigma$ below-average in low leverage situations. The average $\Delta\mathrm{wOBA}$ = -.021$\pm$.034, so this group of batters performs slightly worse than themselves on average in high leverage situations. Not too unexpected, as the likelhood of a high-caliber reliever opposing them is higher, or a platoon is effect, e.g. a left-handed pitcher is brought in during a high leverage spot to face one of our left-handed batters. Interesting to note that #1 and #2 in $\Delta\mathrm{wOBA}$, Carlos Santana and Jonah Heim, are both swtich hitters, so they will always have the platoon advantage when it comes to the handedness of the pitcher in high leverage situations. 
+Over the course of four seasons, Carlos Santana appears to have a knack for the clutch despite being almost 1-$\sigma$ below-average in low leverage situations. The average $\Delta\mathrm{wOBA}$ = -.021$\pm$.034, so this group of batters performs slightly worse than themselves on average in high leverage situations. Not too unexpected, as the likelhood of a high-caliber reliever opposing them is higher, or a platoon is effect, e.g. a left-handed pitcher is brought in during a high leverage spot to face one of our left-handed batters. Interesting to note that #1 and #2 in $\Delta\mathrm{wOBA}$, Carlos Santana and Jonah Heim, are both swtich hitters, so they will always have the platoon advantage when it comes to the handedness of the pitcher in high leverage situations. So can we attribute any of these $\Delta$wOBA measurements to an actual increase in a player's skill in the clutch, or are the results attributed solely to statistical uncertainty? For a given player $P$, we can assume that the variation of $P$'s $\Delta\mathrm{wOBA}$ from the mean is equal to the sum of the variance in measurement and the variance in that player's clutch skill ($\sigma_{\mathrm{skill}}^{2}$). The clutch skill is a measure of the contribution to a player's measured $\Delta\mathrm{wOBA}$ that is not accounted for by statistical uncertainty, and $\sigma_{\mathrm{skill}}$ is a measure of the spread of that player's skill in the clutch. For example, if $P$ has a measured clutch skill of +.002$\pm$.003, then we are only 68% certain that $P$'s true clutch skill is between -.001 and +.005. To infer the clutch skill of individual players, we'll need to know the variance in clutch skill across all players in the group. Writing this out for player $P$ looks like
+
+$$
+\Large \left(\Delta\mathrm{wOBA}_{P}-\bar{\Delta\mathrm{wOBA}}\right)^{2} = \sigma_{\Delta\mathrm{wOBA}, P}^{2} + \sigma_{\mathrm{skill}, P}^{2}
+$$
