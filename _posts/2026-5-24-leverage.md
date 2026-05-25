@@ -25,4 +25,4 @@ What about over the course of a full season? Here is how the 2025 batters with $
   <img src="/plots/2025HLwOBA.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the "Gritty Tigs"?... and Aaron Judge is still "worse" in the clutch, as in, he lies below the dotted black like (HLwOBA = LLwOBA). 
+Colt Keith has the highest HLwOBA in this sample across 25 PA... a member of the "Gritty Tigs"?... and Aaron Judge is still "worse" in the clutch, despite his HLwOBA being almost one standard deviation above average. 
