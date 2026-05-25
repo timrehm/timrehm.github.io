@@ -102,7 +102,7 @@ $$
 Since we want to exclude $P$'s contribution to $\overline{\Delta\mathrm{wOBA}}$ when considering his skill variance, we include the factor $\tilde{N} = 1-N_{\mathrm{eff}}/N_{\mathrm{tot}}$, where $1/N_{\mathrm{eff}} = 1/N_{\mathrm{HL \ PA}}+1/N_{\mathrm{LL \ PA}}$ and $N_{\mathrm{tot}}$ is the sum of $N_{\mathrm{eff}}$ for all players. To find the weighted average of clutch skill variances across the entire group, we'll also need the uncertainty in $\sigma_{\mathrm{skill}, P}^{2}$, which equals the total observed variance multiplied by $\sqrt{2}$:
 
 $$
-\Large \sigma\left(\sigma_{\mathrm{skill}, \ P}^{2}\right) = \sqrt{2}\left(\tilde{N}\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}, \ P}^{2}\right)
+\Large \sigma\left(\sigma_{\mathrm{skill}, \ P}^{2}\right) = \sqrt{2}\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}, \ P}^{2}\right)
 $$
 
 Therefore, the clutch skill variance of the entire group is:
