@@ -105,10 +105,10 @@ $$
 \Large \sigma\left(\sigma_{\mathrm{skill}, \ P}^{2}\right) = \sqrt{2}\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}, \ P}^{2}\right)
 $$
 
-Therefore, the clutch skill variance of the entire group is:
+Therefore, the clutch skill variance (and its uncertainty) of the entire group is:
 
 $$
 \Large \sigma_{\mathrm{skill}}^{2} = \frac{\sum_{P}\frac{\left(\Delta\mathrm{wOBA}_{P}-\overline{\Delta\mathrm{wOBA}}\right)^{2}-\tilde{N}\sigma_{\Delta\mathrm{wOBA}, \ P}^{2}}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}}{\sum_{P}\frac{1}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}} \pm \sqrt{\frac{2}{\sum_{P}\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{-2}}}
 $$
 
-This equation is self-referential, as the variance of each player's skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. When we plug this into
+This equation is self-referential, as the variance of each player's skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. Solving this for our 76 batters yields $\sigma^{2}_{\mathrm{skill}}$ = .0001195$\pm$.0002192. That means that our population has a clutch skill standard deviation ($\sigma_{\mathrm{skill}}$) of .011 points in wOBA.
