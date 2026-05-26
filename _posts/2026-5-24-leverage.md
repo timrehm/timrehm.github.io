@@ -186,6 +186,7 @@ $$
 $$
 
 And the bottom 10:
+
 $$
 \Large
 \begin{array}{|c|c|c|c|}
