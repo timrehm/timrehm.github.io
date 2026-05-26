@@ -35,7 +35,7 @@ What about over the course of a full season? Here is how the batters in 2025 wit
   <img src="/plots/2025HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
 </p>
 
-Colt Keith has the highest HLwOBA in this sample across $25$ PA... a member of the Gritty Tigs?... and Aaron Judge is still "worse" than himself in the clutch, but his HLwOBA is almost one standard deviation above average. The sample size is still quite too small. The average HLwOBA is again lower than the overall average wOBA, which should be expected since the the majority of HL PA occur in the 8th and 9th innings, when opposing teams normally put in their best relievers. Likewise, we expect the average LLwOBA to be very close to the average wOBA since around $90\%$ of PA are in low leverage. So let's try and expand the sample size and see if we can infer any clutch skill. Let's look at the HL and LL performance of each player with $\geq 400$ PA in each of the last four seasons (2022-2025):
+Colt Keith has the highest HLwOBA in this sample across $25$ PA... a member of the Gritty Tigs?... and Aaron Judge is still "worse" than himself in the clutch, but his HLwOBA is almost one standard deviation above average. The sample size is still quite too small. The average HLwOBA is again lower than the overall average wOBA, which should be expected since the majority of HL PA occur in the 8th and 9th innings, when opposing teams normally put in their best relievers. Likewise, we expect the average LLwOBA to be very close to the average wOBA since around $90\%$ of PA are in low leverage. So let's try and expand the sample size and see if we can infer any clutch skill. Let's look at the HL and LL performance of each player with $\geq 400$ PA in each of the last four seasons (2022-2025):
 
 <p align="center">
   <img src="/plots/2022-25HLwOBA_errorbar.svg" style="max-width: 100%; width: 100%;">
@@ -64,7 +64,7 @@ $$
 \end{array}
 $$
 
-This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attributes. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA $\left(\Delta\mathrm{wOBA}\right)$, which could reveal the ability of a player to become better or worse than themself in the clutch. A positive $\Delta\mathrm{wOBA}$ indicates better performance in the clutch, and vice versa when $\Delta\mathrm{wOBA}$ is negative. Calculating $\Delta\mathrm{wOBA}$ is simply:
+This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with the lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attributes. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA $\left(\Delta\mathrm{wOBA}\right)$, which could reveal the ability of a player to become better or worse than themself in the clutch. A positive $\Delta\mathrm{wOBA}$ indicates better performance in the clutch, and vice versa when $\Delta\mathrm{wOBA}$ is negative. Calculating $\Delta\mathrm{wOBA}$ is simply:
 
 $$
 \Large \Delta\mathrm{wOBA}\pm\sigma_{\Delta\mathrm{wOBA}} = \left(\mathrm{HLwOBA}-\mathrm{LLwOBA}\right)\pm\sqrt{\sigma_{\mathrm{HLwOBA}}^{2}+\sigma_{\mathrm{LLwOBA}}^{2}}
