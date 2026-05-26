@@ -121,7 +121,7 @@ $$
 \end{align*}
 $$
 
-Despite us measuring a .058$\,\Delta\mathrm{wOBA}$, which is *seven* standard deviations above the mean clutch skill, when we regress, we find that Jonah Heim turns out to be a -.014$\,\Delta\mathrm{wOBA}$ hitter, which is only +.0065 wOBA points above the mean. We conclude that in clutch situations, we expect Jonah Heim to perform .0065 wOBA points better than his low leverage wOBA. This is how we'll quote clutch skill, as the number of wOBA points above the observed mean clutch skill. Doing this for every batter in our group, here's the list of the top and bottom 10 in clutch skill:
+Despite us measuring a .058$\,\Delta\mathrm{wOBA}$, which is *seven* standard deviations above the mean clutch skill, when we regress, we find that Jonah Heim turns out to be a -.014$\,\Delta\mathrm{wOBA}$ hitter, so we expect Jonah Heim to perform only 0.014 wOBA points lower than his low leverage wOBA, which is .0065 wOBA points above the mean. This is how we'll quote expected clutch skill, as the number of wOBA points above the observed mean clutch skill. Doing this for every batter in our group, here's the list of the top and bottom 10 in clutch skill:
 
 $$
 \Large
@@ -152,5 +152,5 @@ $$
 \end{array}
 $$
 
-Carlos Santana again reigns supreme. From the measured results, we would expect him to hit .0075 wOBA points higher in the clutch than his low leverage wOBA. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? Let's see:
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit .0075 wOBA points higher in the clutch than his low leverage wOBA. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how it aligns. Let's see...:
 
