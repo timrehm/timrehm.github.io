@@ -121,7 +121,7 @@ $$
 \end{align*}
 $$
 
-Despite us measuring a $.058\,\Delta\mathrm{wOBA}$, which is *seven* standard deviations above the mean clutch skill, when we regress, we find that Jonah Heim turns out to be a $-.014\,\Delta\mathrm{wOBA}$ hitter, so we expect Jonah Heim to perform only $.014$ wOBA points lower than his low leverage wOBA, which is $.0065$ wOBA points above the mean. This is how we'll quote expected clutch skill, as the number of wOBA points above the observed mean clutch skill. Doing this for every batter in our group, here's the list of the top and bottom 10 in clutch skill:
+Despite us measuring a $.058\,\Delta\mathrm{wOBA}$, which is *seven* standard deviations above the mean clutch skill, when we regress, we find that Jonah Heim turns out to be a $-.014\,\Delta\mathrm{wOBA}$ hitter, so we expect Jonah Heim to perform $.014$ wOBA points *lower* than his low leverage wOBA, which is only $.0065$ wOBA points above the mean. This is how we'll quote expected clutch skill, as the number of wOBA points above the observed mean clutch skill. Doing this for every batter in our group, here's the list of the top and bottom 10 in clutch skill:
 
 $$
 \Large
