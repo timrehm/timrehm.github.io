@@ -151,3 +151,6 @@ $$
 \hline
 \end{array}
 $$
+
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit .0075 wOBA points higher in the clutch than his low leverage wOBA. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? Let's see:
+
