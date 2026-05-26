@@ -111,7 +111,7 @@ $$
 \Large \sigma_{\mathrm{skill}}^{2} = \frac{\sum_{P}\frac{\left(\Delta\mathrm{wOBA}_{P}-\overline{\Delta\mathrm{wOBA}}\right)^{2}-\tilde{N}\sigma_{\Delta\mathrm{wOBA}, \ P}^{2}}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}}{\sum_{P}\frac{1}{2\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{2}}} \pm \sqrt{\frac{2}{\sum_{P}\left(\sigma_{\Delta\mathrm{wOBA}, \ P}^{2} + \sigma_{\mathrm{skill}}^{2}\right)^{-2}}}
 $$
 
-This equation is self-referential, as the variance of each player's skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. Solving this for our 76 batters yields $\sigma_{\mathrm{skill}}^{2}$ = .0001195$\pm$.0002192. That means that our population has a clutch skill standard deviation $\sigma_{\mathrm{skill}}$ = .011 points in wOBA. From what we *measured*, we found the average $\Delta$wOBA = -.021$\pm$.034 from statistical uncertainty, but now we find the average $\Delta$wOBA *skill* equals -.021$\pm$.011. We can estimate each player's clutch skill with respect to the population of players by regressing each player's performance to the mean. We will take each player's $\Delta\mathrm{wOBA}$ and interpret it as his measured clutch skill, and then regress to the population mean of clutch skill. Take Jonah Heim, his *measured* clutch skill is .058$\pm$.036. We can regress his clutch skill to the mean, which weighs the measured clutch skill and population mean by the inverse of each measurement's variance. This looks like:
+This equation is self-referential, as the variance of each player's individual skill variance is a function of the *total* variance, so one would need to solve this with a root-finder or recursively until a self-consistent value for $\sigma_{\mathrm{skill}}^{2}$ is found. Solving this for our 76 batters yields $\sigma_{\mathrm{skill}}^{2}$ = .00012$\pm$.00022. That means that our population has a clutch skill standard deviation $\sigma_{\mathrm{skill}}$ = .011 points in wOBA. From what we *measured*, we found the average $\Delta$wOBA = -.021$\pm$.034 from statistical uncertainty, but now we find the average $\Delta$wOBA *skill* equals -.021$\pm$.011. We can estimate each player's clutch skill with respect to the population of players by regressing each player's performance to the mean. We will take each player's $\Delta\mathrm{wOBA}$ and interpret it as his measured clutch skill, and then regress to the population mean of clutch skill. Take Jonah Heim, his *measured* clutch skill is .058$\pm$.036. We can regress his clutch skill to the mean, which weighs the measured clutch skill and population mean by the inverse of each measurement's variance. This looks like:
 
 $$
 \Large 
@@ -119,4 +119,35 @@ $$
 \mathrm{clutch \ wOBA \ skill} &= \frac{-.021/.011^{2}+.058/.036^{2}}{1/.011^{2}+1/.036^{2}}\\
 &= -.014
 \end{align*}
+$$
+
+Despite us measuring a .058$\,\Delta\mathrm{wOBA}$, which is *seven* standard deviations above the mean clutch skill, when we regress, we find that Jonah Heim turns out to be a -.014$\,\Delta\mathrm{wOBA}$ hitter, which is only +.0065 wOBA points above the mean. We conclude that in clutch situations, we expect Jonah Heim to perform .0065 wOBA points better than his low leverage wOBA. This is how we'll quote clutch skill, as the number of wOBA points above the observed mean clutch skill. Doing this for every batter in our group, here's the list of the top and bottom 10 in clutch skill:
+
+$$
+\Large
+\begin{array}{|c|c|c|c|}
+\hline
+\mathrm{Top \ 6} & \mathrm{Expected \ clutch \ skill} & \mathrm{Bottom \ 6} & \mathrm{Expected \ clutch \ skill}\\
+\hline
+\mathrm{Carlos \ Santana}& .0075 & \mathrm{Taylor \ Ward} & -.0077\\
+\hline
+\mathrm{Jonah \ Heim}& .0065 & \mathrm{Matt \ Chapman} & -.0074\\
+\hline
+\mathrm{J.P. \ Crawford}&.0053 & \mathrm{Austin \ Riley} & -.0064\\
+\hline
+\mathrm{Adolis \ García}&.0046  & \mathrm{Brandon \ Marsh} & -.0060\\
+\hline
+\mathrm{Vladimir \ Guerrero \ Jr.} &.0045 & \mathrm{Paul \ Goldschmidt} &-.0060\\
+\hline
+\mathrm{Ryan \ McMahon} &.0045 & \mathrm{Marcus \ Semien} & -.0054\\
+\hline
+\mathrm{Steven \ Kwan} &.0042 & \mathrm{Dansby \ Swanson} & -.0053\\
+\hline
+\mathrm{Tommy \ Pham} &.0040 & \mathrm{Bryce \ Harper} & -.0047\\
+\hline
+\mathrm{Matt \ Olson} &.0038 & \mathrm{Seiya \ Suzuki} & -.0045\\
+\hline
+\mathrm{Brandon \ Nimmo} &.0038 & \mathrm{Randy \ Arozarena} & -.0044\\
+\hline
+\end{array}
 $$
