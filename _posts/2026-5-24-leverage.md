@@ -152,5 +152,33 @@ $$
 \end{array}
 $$
 
-Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how it aligns. Let's see...:
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how the top and bottom 10 values align with what they posted. I am not very interested in seeing how well we can predict a player who is indifferent to clutch to remain indifferent to clutch. Let's see the top 10:
 
+$$
+\Large
+\begin{array}{|c|c|c|c|}
+\hline
+\mathrm{Top \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
+\hline
+\mathrm{Carlos \ Santana}& .250 & .446 & -.196\\
+\hline
+\mathrm{Jonah \ Heim}& .250 & .294 & -.044\\
+\hline
+\mathrm{J.P. \ Crawford}&.294 & .427 & -.133\\
+\hline
+\mathrm{Adolis \ García}&.266  & .313 & -.046\\
+\hline
+\mathrm{Vladimir \ Guerrero \ Jr.} &.347 &.396 &-.049\\
+\hline
+\mathrm{Ryan \ McMahon} &.298 & .250 & .048\\
+\hline
+\mathrm{Steven \ Kwan} &.294 & .311 & -.017\\
+\hline
+\mathrm{Tommy \ Pham} &.276 & .447 & -.171\\
+\hline
+\mathrm{Matt \ Olson} &.351 &.361  & -.010\\
+\hline
+\mathrm{Brandon \ Nimmo} &.319 & .286 & .033\\
+\hline
+\end{array}
+$$
