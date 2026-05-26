@@ -64,7 +64,7 @@ $$
 \end{array}
 $$
 
-This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attributes. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA ($\Delta\mathrm{wOBA}$), which could reveal the ability of a player to become better or worse than themself in the clutch. A positive $\Delta\mathrm{wOBA}$ indicates better performance in the clutch, and vice versa when $\Delta\mathrm{wOBA}$ is negative. Calculating $\Delta\mathrm{wOBA}$ is simply:
+This isn't really mind-blowing. Some of the league's best hitters measure the highest HLwOBA, and the players with lowest HLwOBAs are not necessarily bad hitters, but don't come to mind as the most threatening offensive talent, and maybe are more regarded for their defensive attributes. Perhaps what is of interest is the difference between a player's HLwOBA and LLwOBA $\left(\Delta\mathrm{wOBA}\right)$, which could reveal the ability of a player to become better or worse than themself in the clutch. A positive $\Delta\mathrm{wOBA}$ indicates better performance in the clutch, and vice versa when $\Delta\mathrm{wOBA}$ is negative. Calculating $\Delta\mathrm{wOBA}$ is simply:
 
 $$
 \Large \Delta\mathrm{wOBA}\pm\sigma_{\Delta\mathrm{wOBA}} = \left(\mathrm{HLwOBA}-\mathrm{LLwOBA}\right)\pm\sqrt{\sigma_{\mathrm{HLwOBA}}^{2}+\sigma_{\mathrm{LLwOBA}}^{2}}
