@@ -193,25 +193,25 @@ $$
 \hline
 \mathrm{Bottom \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Taylor \ Ward}& .316 & .312 & +.004\\
+\mathrm{Taylor \ Ward}& .316 & .312\pm.057 & +.004\\
 \hline
-\mathrm{Matt \ Chapman}& .313 & .250 & +.068\\
+\mathrm{Matt \ Chapman}& .313 & .250\pm.072 & +.068\\
 \hline
-\mathrm{Austin \ Riley}&.341 & .177 & +.164\\
+\mathrm{Austin \ Riley}&.341 & .177\pm.049 & +.164\\
 \hline
-\mathrm{Brandon \ Marsh}&.304  & .312 & -.008\\
+\mathrm{Brandon \ Marsh}&.304  & .312\pm.072 & -.008\\
 \hline
-\mathrm{Paul \ Goldschmidt} &.336 &.144 &+.191\\
+\mathrm{Paul \ Goldschmidt} &.336 &.144\pm.066 &+.191\\
 \hline
-\mathrm{Marcus \ Semien} &.304 & .307 & -.003\\
+\mathrm{Marcus \ Semien} &.304 & .307\pm.063 & -.003\\
 \hline
-\mathrm{Dansby \ Swanson} &.302& .231 & +.071\\
+\mathrm{Dansby \ Swanson} &.302& .231\pm.055 & +.071\\
 \hline
-\mathrm{Bryce \ Harper} &.356 & .323 & +.033\\
+\mathrm{Bryce \ Harper} &.356 & .323\pm.067 & +.033\\
 \hline
-\mathrm{Seiya \ Suzuki} &.333 &.355  & -.022\\
+\mathrm{Seiya \ Suzuki} &.333 &.355\pm.071  & -.022\\
 \hline
-\mathrm{Randy \ Arozarena} &.312 & .333 & -.021\\
+\mathrm{Randy \ Arozarena} &.312 & .333\pm.063 & -.021\\
 \hline
 \end{array}
 $$
