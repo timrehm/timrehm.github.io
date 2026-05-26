@@ -127,7 +127,7 @@ $$
 \Large
 \begin{array}{|c|c|c|c|}
 \hline
-\mathrm{Top \ 6} & \mathrm{Expected \ clutch \ skill} & \mathrm{Bottom \ 6} & \mathrm{Expected \ clutch \ skill}\\
+\mathrm{Top \ 10} & \mathrm{Expected \ clutch \ skill} & \mathrm{Bottom \ 10} & \mathrm{Expected \ clutch \ skill}\\
 \hline
 \mathrm{Carlos \ Santana}& .0075 & \mathrm{Taylor \ Ward} & -.0077\\
 \hline
