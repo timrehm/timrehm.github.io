@@ -152,7 +152,9 @@ $$
 \end{array}
 $$
 
-Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how the top and bottom 10 values align with what they posted. I am not very interested in seeing how well we can predict a player who is indifferent to clutch to remain indifferent to clutch. Let's see the top 10:
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he played 8 games and then strain his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted the clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how the top and bottom 10 values align with what they posted. I am not very interested in seeing how well we can predict a player who is indifferent to clutch to remain indifferent to clutch. 
+
+Let's see the top 10:
 
 $$
 \Large
@@ -179,6 +181,36 @@ $$
 \mathrm{Matt \ Olson} &.351 &.361  & -.010\\
 \hline
 \mathrm{Brandon \ Nimmo} &.319 & .286 & +.033\\
+\hline
+\end{array}
+$$
+
+And the bottom 10:
+$$
+\Large
+\begin{array}{|c|c|c|c|}
+\hline
+\mathrm{Bottom \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
+\hline
+\mathrm{Taylor \ Ward}& .311 & .312 & -.001\\
+\hline
+\mathrm{Matt \ Chapman}& .316 & .250 & +.071\\
+\hline
+\mathrm{Austin \ Riley}&.319 & .177 & +.142\\
+\hline
+\mathrm{Brandon \ Marsh}&.313  & .312 & +.001\\
+\hline
+\mathrm{Paul \ Goldschmidt} &.306 &.144 &+.162\\
+\hline
+\mathrm{Marcus \ Semien} &.263 & .307 & -.044\\
+\hline
+\mathrm{Dansby \ Swanson} &.291& .231 & +.060\\
+\hline
+\mathrm{Bryce \ Harper} &.338 & .323 & +.015\\
+\hline
+\mathrm{Seiya \ Suzuki} &.318 &.355  & -.037\\
+\hline
+\mathrm{Randy \ Arozarena} &.304 & .333 & -.029\\
 \hline
 \end{array}
 $$
