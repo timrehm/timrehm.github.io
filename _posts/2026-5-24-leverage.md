@@ -152,7 +152,7 @@ $$
 \end{array}
 $$
 
-Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he's only played 8 games before straining his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted their clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their 2025 LLwOBA to formulate our expected HLwOBA, and see how the top and bottom 10 values align with what they posted. I am not very interested in seeing how well we can predict a player who is indifferent to the clutch remains indifferent to the clutch. 
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he's only played 8 games before straining his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted their clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their average LLwOBA across those three seasons, and formulate our expected HLwOBA for 2025. Let's see how the expected HLwOBA for the top and bottom 10 align with how they actually performed. I am not very interested in seeing how well we can predict a player who is indifferent to the clutch remains indifferent to the clutch. 
 
 Let's see the top 10:
 
@@ -162,25 +162,25 @@ $$
 \hline
 \mathrm{Top \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Carlos \ Santana}& .299 & .446 & -.147\\
+\mathrm{Carlos \ Santana}& .299 & .446\pm.077 & -.147\\
 \hline
-\mathrm{Jonah \ Heim}& .274 & .294 & -.020\\
+\mathrm{Jonah \ Heim}& .274 & .294\pm.063 & -.020\\
 \hline
-\mathrm{J.P. \ Crawford}&.298 & .427 & -.129\\
+\mathrm{J.P. \ Crawford}&.298 & .427\pm.073 & -.129\\
 \hline
-\mathrm{Adolis \ García}&.304  & .313 & -.009\\
+\mathrm{Adolis \ García}&.304  & .313\pm.067 & -.009\\
 \hline
-\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396 &-.052\\
+\mathrm{Vladimir \ Guerrero \ Jr.} &.344\pm.071 &.396 &-.052\\
 \hline
-\mathrm{Ryan \ McMahon} &.302 & .250 & +.051\\
+\mathrm{Ryan \ McMahon} &.302 & .250\pm.060 & +.051\\
 \hline
-\mathrm{Steven \ Kwan} &.314 & .311 & +.003\\
+\mathrm{Steven \ Kwan} &.314 & .311\pm.063 & +.003\\
 \hline
-\mathrm{Tommy \ Pham} &.290 & .447 & -.157\\
+\mathrm{Tommy \ Pham} &.290 & .447\pm.085 & -.157\\
 \hline
-\mathrm{Matt \ Olson} &.344 &.361  & -.017\\
+\mathrm{Matt \ Olson} &.344 &.361\pm.062  & -.017\\
 \hline
-\mathrm{Brandon \ Nimmo} &.324 & .286 & +.038\\
+\mathrm{Brandon \ Nimmo} &.324 & .286\pm.064 & +.038\\
 \hline
 \end{array}
 $$
