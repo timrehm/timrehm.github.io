@@ -170,7 +170,7 @@ $$
 \hline
 \mathrm{Vladimir \ Guerrero \ Jr.} &.347 &.396 &-.049\\
 \hline
-\mathrm{Ryan \ McMahon} &.298 & .250 & .048\\
+\mathrm{Ryan \ McMahon} &.298 & .250 & +.048\\
 \hline
 \mathrm{Steven \ Kwan} &.294 & .311 & -.017\\
 \hline
@@ -178,7 +178,7 @@ $$
 \hline
 \mathrm{Matt \ Olson} &.351 &.361  & -.010\\
 \hline
-\mathrm{Brandon \ Nimmo} &.319 & .286 & .033\\
+\mathrm{Brandon \ Nimmo} &.319 & .286 & +.033\\
 \hline
 \end{array}
 $$
