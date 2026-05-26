@@ -170,7 +170,7 @@ $$
 \hline
 \mathrm{Adolis \ García}&.304  & .313\pm.067 & -.009\\
 \hline
-\mathrm{Vladimir \ Guerrero \ Jr.} &.344\pm.071 &.396 &-.052\\
+\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396\pm.071 &-.052\\
 \hline
 \mathrm{Ryan \ McMahon} &.302 & .250\pm.060 & +.051\\
 \hline
