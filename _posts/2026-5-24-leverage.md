@@ -162,25 +162,25 @@ $$
 \hline
 \mathrm{Top \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Carlos \ Santana}& .250 & .446 & -.196\\
+\mathrm{Carlos \ Santana}& .299 & .446 & -.147\\
 \hline
-\mathrm{Jonah \ Heim}& .250 & .294 & -.044\\
+\mathrm{Jonah \ Heim}& .274 & .294 & -.020\\
 \hline
-\mathrm{J.P. \ Crawford}&.294 & .427 & -.133\\
+\mathrm{J.P. \ Crawford}&.298 & .427 & -.129\\
 \hline
-\mathrm{Adolis \ García}&.266  & .313 & -.046\\
+\mathrm{Adolis \ García}&.304  & .313 & -.009\\
 \hline
-\mathrm{Vladimir \ Guerrero \ Jr.} &.347 &.396 &-.049\\
+\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396 &-.052\\
 \hline
-\mathrm{Ryan \ McMahon} &.298 & .250 & +.048\\
+\mathrm{Ryan \ McMahon} &.302 & .250 & +.051\\
 \hline
-\mathrm{Steven \ Kwan} &.294 & .311 & -.017\\
+\mathrm{Steven \ Kwan} &.314 & .311 & +.003\\
 \hline
-\mathrm{Tommy \ Pham} &.276 & .447 & -.171\\
+\mathrm{Tommy \ Pham} &.290 & .447 & -.157\\
 \hline
-\mathrm{Matt \ Olson} &.351 &.361  & -.010\\
+\mathrm{Matt \ Olson} &.344 &.361  & -.017\\
 \hline
-\mathrm{Brandon \ Nimmo} &.319 & .286 & +.033\\
+\mathrm{Brandon \ Nimmo} &.324 & .286 & +.038\\
 \hline
 \end{array}
 $$
@@ -193,25 +193,25 @@ $$
 \hline
 \mathrm{Bottom \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Taylor \ Ward}& .311 & .312 & -.001\\
+\mathrm{Taylor \ Ward}& .316 & .312 & +.004\\
 \hline
-\mathrm{Matt \ Chapman}& .316 & .250 & +.071\\
+\mathrm{Matt \ Chapman}& .313 & .250 & +.068\\
 \hline
-\mathrm{Austin \ Riley}&.319 & .177 & +.142\\
+\mathrm{Austin \ Riley}&.341 & .177 & +.164\\
 \hline
-\mathrm{Brandon \ Marsh}&.313  & .312 & +.001\\
+\mathrm{Brandon \ Marsh}&.304  & .312 & -.008\\
 \hline
-\mathrm{Paul \ Goldschmidt} &.306 &.144 &+.162\\
+\mathrm{Paul \ Goldschmidt} &.336 &.144 &+.191\\
 \hline
-\mathrm{Marcus \ Semien} &.263 & .307 & -.044\\
+\mathrm{Marcus \ Semien} &.304 & .307 & -.003\\
 \hline
-\mathrm{Dansby \ Swanson} &.291& .231 & +.060\\
+\mathrm{Dansby \ Swanson} &.302& .231 & +.071\\
 \hline
-\mathrm{Bryce \ Harper} &.338 & .323 & +.015\\
+\mathrm{Bryce \ Harper} &.356 & .323 & +.033\\
 \hline
-\mathrm{Seiya \ Suzuki} &.318 &.355  & -.037\\
+\mathrm{Seiya \ Suzuki} &.333 &.355  & -.022\\
 \hline
-\mathrm{Randy \ Arozarena} &.304 & .333 & -.029\\
+\mathrm{Randy \ Arozarena} &.312 & .333 & -.021\\
 \hline
 \end{array}
 $$
