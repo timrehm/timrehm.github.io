@@ -154,7 +154,7 @@ $$
 \end{array}
 $$
 
-Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0075$ wOBA points higher in the clutch than the average. In 2026, he's only played 8 games before straining his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted their clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, add their clutch skill to their average LLwOBA across those three seasons, and formulate our expected HLwOBA for 2025. Let's see how the expected HLwOBA for the top and bottom 10 align with how they actually performed. I am not very interested in seeing how well we can predict a player who is indifferent to the clutch remains indifferent to the clutch. 
+Carlos Santana again reigns supreme. From the measured results, we would expect him to hit $.0039$ wOBA points higher in the clutch than the average. In 2026, he's only played 8 games before straining his adductor, so there is absolutely no way to project this result into this season. Perhaps we should look at the clutch skill for players between 2022-2024 and see if we could have predicted their clutch skill in 2025? To do this, we'll re-do all of the calculations above for only the 2022-2024 seasons, find $\overline{\Delta}\mathrm{wOBA}$, *add* it to their average LLwOBA across those three seasons, add their clutch skill, and formulate our expected HLwOBA for 2025. Let's see how the expected HLwOBA for the top and bottom 10 align with how they actually performed. I am not very interested in seeing how well we can predict a player who is indifferent to the clutch remains indifferent to the clutch. 
 
 Let's see the top 10:
 
@@ -164,25 +164,25 @@ $$
 \hline
 \mathrm{Top \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Carlos \ Santana}& .299 & .446 & -.147\\
+\mathrm{Carlos \ Santana}& .296 & .446 & -.150\\
 \hline
-\mathrm{Jonah \ Heim}& .274 & .294 & -.020\\
+\mathrm{Jonah \ Heim}& .270 & .294 & -.024\\
 \hline
-\mathrm{J.P. \ Crawford}&.298 & .427 & -.129\\
+\mathrm{J.P. \ Crawford}&.296 & .427 & -.131\\
 \hline
-\mathrm{Adolis \ García}&.304  & .313 & -.009\\
+\mathrm{Ryan \ McMahon}&.298  & .250 & +.048\\
 \hline
-\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396 &-.052\\
+\mathrm{Adolis \ García} &.301 &.313 &-.012\\
 \hline
-\mathrm{Ryan \ McMahon} &.302 & .250 & +.051\\
+\mathrm{Vladimir \ Guerrero \ Jr.} &.341 & .396 & -.055\\
 \hline
-\mathrm{Steven \ Kwan} &.314 & .311 & +.003\\
+\mathrm{Matt \ Olson} &.342 & .361 & -.019\\
 \hline
-\mathrm{Tommy \ Pham} &.290 & .447 & -.157\\
+\mathrm{Tommy \ Pham} &.289 & .447 & -.158\\
 \hline
-\mathrm{Matt \ Olson} &.344 &.361  & -.017\\
+\mathrm{Brandon \ Nimmo} &.321 &.286  & +.035\\
 \hline
-\mathrm{Brandon \ Nimmo} &.324 & .286 & +.038\\
+\mathrm{Eugenio \ Suárez} &.308 & .372 & -.064\\
 \hline
 \end{array}
 $$
@@ -195,25 +195,25 @@ $$
 \hline
 \mathrm{Bottom \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Taylor \ Ward}& .316 & .312 & +.004\\
+\mathrm{Taylor \ Ward}& .322 & .312 & +.010\\
 \hline
-\mathrm{Matt \ Chapman}& .313 & .250 & +.068\\
+\mathrm{Matt \ Chapman}& .318 & .245 & +.073\\
 \hline
-\mathrm{Austin \ Riley}&.341 & .177 & +.164\\
+\mathrm{Austin \ Riley}&.342 & .177 & +.165\\
 \hline
-\mathrm{Brandon \ Marsh}&.304  & .312 & -.008\\
+\mathrm{Paul \ Goldschmidt}&.338  & .144 & +.194\\
 \hline
-\mathrm{Paul \ Goldschmidt} &.336 &.144 &+.191\\
+\mathrm{Brandon \ Marsh} &.309 &.312 &-.003\\
 \hline
-\mathrm{Marcus \ Semien} &.304 & .307 & -.003\\
+\mathrm{Marcus \ Semien} &.309 & .307 & +.002\\
 \hline
-\mathrm{Dansby \ Swanson} &.302& .231 & +.071\\
+\mathrm{Dansby \ Swanson} &.304& .231 & +.073\\
 \hline
-\mathrm{Bryce \ Harper} &.356 & .323 & +.033\\
+\mathrm{Bryce \ Harper} &.359 & .323 & +.036\\
 \hline
-\mathrm{Seiya \ Suzuki} &.333 &.355  & -.022\\
+\mathrm{Seiya \ Suzuki} &.337 &.355  & -.018\\
 \hline
-\mathrm{Randy \ Arozarena} &.312 & .333 & -.021\\
+\mathrm{Rafael \ Devers} &.348 & .336 & -.012\\
 \hline
 \end{array}
 $$
