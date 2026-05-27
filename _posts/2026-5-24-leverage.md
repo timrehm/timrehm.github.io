@@ -162,25 +162,25 @@ $$
 \hline
 \mathrm{Top \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Carlos \ Santana}& .299 & .446\pm.077 & -.147\\
+\mathrm{Carlos \ Santana}& .299 & .446 & -.147\\
 \hline
-\mathrm{Jonah \ Heim}& .274 & .294\pm.063 & -.020\\
+\mathrm{Jonah \ Heim}& .274 & .294 & -.020\\
 \hline
-\mathrm{J.P. \ Crawford}&.298 & .427\pm.073 & -.129\\
+\mathrm{J.P. \ Crawford}&.298 & .427 & -.129\\
 \hline
-\mathrm{Adolis \ García}&.304  & .313\pm.067 & -.009\\
+\mathrm{Adolis \ García}&.304  & .313 & -.009\\
 \hline
-\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396\pm.071 &-.052\\
+\mathrm{Vladimir \ Guerrero \ Jr.} &.344 &.396 &-.052\\
 \hline
-\mathrm{Ryan \ McMahon} &.302 & .250\pm.060 & +.051\\
+\mathrm{Ryan \ McMahon} &.302 & .250 & +.051\\
 \hline
-\mathrm{Steven \ Kwan} &.314 & .311\pm.063 & +.003\\
+\mathrm{Steven \ Kwan} &.314 & .311 & +.003\\
 \hline
-\mathrm{Tommy \ Pham} &.290 & .447\pm.085 & -.157\\
+\mathrm{Tommy \ Pham} &.290 & .447 & -.157\\
 \hline
-\mathrm{Matt \ Olson} &.344 &.361\pm.062  & -.017\\
+\mathrm{Matt \ Olson} &.344 &.361  & -.017\\
 \hline
-\mathrm{Brandon \ Nimmo} &.324 & .286\pm.064 & +.038\\
+\mathrm{Brandon \ Nimmo} &.324 & .286 & +.038\\
 \hline
 \end{array}
 $$
@@ -193,25 +193,25 @@ $$
 \hline
 \mathrm{Bottom \ 10} & \mathrm{Expected \ HLwOBA} & \mathrm{2025 \ HLwOBA} & \mathrm{Difference}\\
 \hline
-\mathrm{Taylor \ Ward}& .316 & .312\pm.057 & +.004\\
+\mathrm{Taylor \ Ward}& .316 & .312 & +.004\\
 \hline
-\mathrm{Matt \ Chapman}& .313 & .250\pm.072 & +.068\\
+\mathrm{Matt \ Chapman}& .313 & .250 & +.068\\
 \hline
-\mathrm{Austin \ Riley}&.341 & .177\pm.049 & +.164\\
+\mathrm{Austin \ Riley}&.341 & .177 & +.164\\
 \hline
-\mathrm{Brandon \ Marsh}&.304  & .312\pm.072 & -.008\\
+\mathrm{Brandon \ Marsh}&.304  & .312 & -.008\\
 \hline
-\mathrm{Paul \ Goldschmidt} &.336 &.144\pm.066 &+.191\\
+\mathrm{Paul \ Goldschmidt} &.336 &.144 &+.191\\
 \hline
-\mathrm{Marcus \ Semien} &.304 & .307\pm.063 & -.003\\
+\mathrm{Marcus \ Semien} &.304 & .307 & -.003\\
 \hline
-\mathrm{Dansby \ Swanson} &.302& .231\pm.055 & +.071\\
+\mathrm{Dansby \ Swanson} &.302& .231 & +.071\\
 \hline
-\mathrm{Bryce \ Harper} &.356 & .323\pm.067 & +.033\\
+\mathrm{Bryce \ Harper} &.356 & .323 & +.033\\
 \hline
-\mathrm{Seiya \ Suzuki} &.333 &.355\pm.071  & -.022\\
+\mathrm{Seiya \ Suzuki} &.333 &.355  & -.022\\
 \hline
-\mathrm{Randy \ Arozarena} &.312 & .333\pm.063 & -.021\\
+\mathrm{Randy \ Arozarena} &.312 & .333 & -.021\\
 \hline
 \end{array}
 $$
