@@ -1,3 +1,10 @@
-  name: Tim Rehm
-  markdown: kramdown
-  permalink: /blog/:year/:month/:day/:title/
+name: Tim Rehm
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /blog/:year/:month/:day/:title/
